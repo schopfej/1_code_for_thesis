@@ -1,0 +1,21 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.8.27
+    framework: torch
+    is_jupyter_run: false
+    python_version: 3.7.3
+batch_size:
+  desc: null
+  value: 30
+epochs:
+  desc: null
+  value: 1
+lr:
+  desc: null
+  value: 0.001
+momentum:
+  desc: null
+  value: 0.8

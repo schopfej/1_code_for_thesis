@@ -1,0 +1,3 @@
+usage: _jb_pytest_runner.py [-h] [--lr LR] [--epo EPO] [--mom MOM]
+                            [--batch BATCH] [--resume] [--path PATH]
+_jb_pytest_runner.py: error: unrecognized arguments: /home/jonathan/Documents/1_code_for_thesis/wrong_predicted_coord-Copy1.py

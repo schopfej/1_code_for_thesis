@@ -1,0 +1,22 @@
+{
+    "root": "/home/jonathan/Documents/1_code_for_thesis",
+    "program": "/snap/pycharm-professional/196/plugins/python/helpers/pycharm/_jb_pytest_runner.py",
+    "startedAt": "2020-04-09T12:51:49.230869",
+    "host": "jonathan-Nitro-AN515-54",
+    "username": "jonathan",
+    "executable": "/home/jonathan/anaconda3/bin/python",
+    "os": "Linux-5.3.0-45-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.3",
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "args": [
+        "/home/jonathan/Documents/1_code_for_thesis/wrong_predicted_coord-Copy1.py"
+    ],
+    "state": "failed",
+    "jobType": null,
+    "mode": "run",
+    "project": "radius_real_images",
+    "heartbeatAt": "2020-04-09T12:51:50.798681",
+    "exitcode": 1
+}

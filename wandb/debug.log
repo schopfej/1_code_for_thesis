@@ -1,0 +1,53 @@
+2020-04-09 14:51:49,512 DEBUG   MainThread:15162 [wandb_config.py:_load_defaults():119] no defaults not found in config-defaults.yaml
+2020-04-09 14:51:49,515 DEBUG   MainThread:15162 [meta.py:setup():94] code probe starting
+2020-04-09 14:51:49,516 DEBUG   MainThread:15162 [git_repo.py:repo():30] git repository is invalid
+2020-04-09 14:51:49,516 DEBUG   MainThread:15162 [meta.py:_setup_code_program():58] scan for untracked program
+2020-04-09 14:51:49,516 DEBUG   MainThread:15162 [meta.py:setup():116] code probe done
+2020-04-09 14:51:49,522 DEBUG   MainThread:15162 [run_manager.py:__init__():536] Initialized sync for radius_real_images/98pz4y61
+2020-04-09 14:51:49,524 INFO    MainThread:15162 [run_manager.py:wrap_existing_process():1134] wrapping existing process 15155
+2020-04-09 14:51:49,526 DEBUG   MainThread:15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): pypi.org:443
+2020-04-09 14:51:49,701 DEBUG   MainThread:15162 [connectionpool.py:_make_request():393] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 42295
+2020-04-09 14:51:49,797 INFO    MainThread:15162 [run_manager.py:init_run():919] system metrics and metadata threads started
+2020-04-09 14:51:49,798 INFO    MainThread:15162 [run_manager.py:init_run():953] upserting run before process can begin, waiting at most 10 seconds
+2020-04-09 14:51:49,812 DEBUG   Thread-14 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:50,316 DEBUG   Thread-14 :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:50,323 INFO    Thread-14 :15162 [run_manager.py:_upsert_run():1038] saving patches
+2020-04-09 14:51:50,323 INFO    Thread-14 :15162 [run_manager.py:_upsert_run():1042] saving pip packages
+2020-04-09 14:51:50,323 INFO    Thread-14 :15162 [run_manager.py:_upsert_run():1044] initializing streaming files api
+2020-04-09 14:51:50,323 INFO    Thread-14 :15162 [run_manager.py:_upsert_run():1051] unblocking file change observer, beginning sync with W&B servers
+2020-04-09 14:51:50,323 INFO    MainThread:15162 [run_manager.py:wrap_existing_process():1151] informing user process we are ready to proceed
+2020-04-09 14:51:50,325 DEBUG   Thread-15 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:50,325 INFO    MainThread:15162 [run_manager.py:_sync_etc():1258] entering loop for messages from user process
+2020-04-09 14:51:50,440 INFO    MainThread:15162 [run_manager.py:_sync_etc():1281] received message from user process: {"exitcode": 1}
+2020-04-09 14:51:50,440 INFO    MainThread:15162 [run_manager.py:_sync_etc():1367] closing log streams and sending exitcode to W&B
+2020-04-09 14:51:50,441 INFO    MainThread:15162 [run_manager.py:shutdown():1058] shutting down system stats and metadata service
+2020-04-09 14:51:50,518 INFO    Thread-3  :15162 [run_manager.py:_on_file_modified():683] file/dir modified: /home/jonathan/Documents/1_code_for_thesis/wandb/run-20200409_125148-98pz4y61/config.yaml
+2020-04-09 14:51:50,524 DEBUG   Thread-3  :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:51,234 DEBUG   Thread-3  :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:51,237 INFO    Thread-3  :15162 [run_manager.py:_on_file_created():672] file/dir created: /home/jonathan/Documents/1_code_for_thesis/wandb/run-20200409_125148-98pz4y61/requirements.txt
+2020-04-09 14:51:51,237 INFO    Thread-3  :15162 [run_manager.py:_on_file_created():672] file/dir created: /home/jonathan/Documents/1_code_for_thesis/wandb/run-20200409_125148-98pz4y61/output.log
+2020-04-09 14:51:51,237 INFO    Thread-3  :15162 [run_manager.py:_on_file_created():672] file/dir created: /home/jonathan/Documents/1_code_for_thesis/wandb/run-20200409_125148-98pz4y61/wandb-metadata.json
+2020-04-09 14:51:51,516 INFO    Thread-3  :15162 [run_manager.py:_on_file_modified():683] file/dir modified: /home/jonathan/Documents/1_code_for_thesis/wandb/run-20200409_125148-98pz4y61/wandb-metadata.json
+2020-04-09 14:51:51,517 INFO    Thread-3  :15162 [run_manager.py:_on_file_created():672] file/dir created: /home/jonathan/Documents/1_code_for_thesis/wandb/run-20200409_125148-98pz4y61/wandb-events.jsonl
+2020-04-09 14:51:51,748 DEBUG   Thread-15 :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:51,752 INFO    MainThread:15162 [run_manager.py:shutdown():1070] stopping streaming files and file change observer
+2020-04-09 14:51:52,524 DEBUG   Thread-17 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:52,540 DEBUG   MainThread:15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:52,624 DEBUG   Thread-19 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:52,724 DEBUG   Thread-20 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:52,935 DEBUG   Thread-17 :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:52,944 DEBUG   Thread-17 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-04-09 14:51:52,988 DEBUG   MainThread:15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:53,017 DEBUG   Thread-19 :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:53,026 DEBUG   Thread-19 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-04-09 14:51:53,115 DEBUG   Thread-20 :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-04-09 14:51:53,124 DEBUG   Thread-20 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-04-09 14:51:53,523 DEBUG   Thread-7  :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:53,536 DEBUG   Thread-21 :15162 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-04-09 14:51:53,556 DEBUG   Thread-17 :15162 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/schopfej/radius_real_images/98pz4y61/config.yaml?Expires=1586436772&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=c0FaeqE%2F3QHWFnB8OFsqNwVBAFqXajr31m04YA9xOzaXgTl1HYyUKRhtWFJCe%2BDhhOHpW%2BpL3BRwqr2cGWtECdWrfSA0dNrJR5rqZCDZ9bmo3%2B%2F6%2FtkDAbvBazKsyCw1QffktEoPHJ1Rsrp%2B9V0y7KMO5Yj2hvNibuAK0PrnCqNXcERu1RwiSbOn%2F715b7rcQVny3KGXQCu7%2Fsi888C59IcIilPMH60d8HIdvjgd5b5IMzMuIDtYfkBcjsDFoIlBE7QxISAH05NcjAx2VstZ6hdJEowGYhrNFXY9rslK8CObkwbIG1szfe2XVa1pivfTevmQBKdkWMZja3F0Yeh1mQ%3D%3D HTTP/1.1" 200 0
+2020-04-09 14:51:53,776 DEBUG   Thread-19 :15162 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/schopfej/radius_real_images/98pz4y61/requirements.txt?Expires=1586436772&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=aVKSDhhmecYTIDOEOQFGRHe9mExFmaLsSWrvKYiZSDizvssk70x8PBNfu9JEw2fLlWKv4KPkfRm541cYU7%2FTILbQMxCM9jtLi0cd86bJgsecOryc9IO%2BASpL0Wo0XK8H5rwqQbeaZlzEeJGLxvPByyrbnBKAjIHZp0LwxJQk6tnjuRyzxp1lTmPfHEQo9ZUBXzml9DcVxBUz4TRD%2FH5vCKusaYgBDmrfz%2FgSGXfb8BygxSz1pZDTDl9kch1ryOI8pT%2BIjYsCbHO8CaFyaz84bQddC4s%2BwdoixGp8xkg5PgEiRMJBUA%2F8UxJLq54upOEFetJ1uQbIKKzsnwNHO81jrA%3D%3D HTTP/1.1" 200 0
+2020-04-09 14:51:53,833 DEBUG   Thread-20 :15162 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/schopfej/radius_real_images/98pz4y61/wandb-metadata.json?Expires=1586436773&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=dGbNjCpuA%2FojToGw0oc7TTRnT9v3viTPJAp5AZxIttb1hqxAXSywga6ZBDPHLpmAKeYa6x5WUFN4y1Gtptuy%2FzkoHXplnOkzgyLIjIPONtbT%2B%2BqsAf3c%2BTI6la1fgVSSnaq1or%2BOAoesC%2FXEudSxcftF30KqgMTcc3He0h3PR3Da1dAukxijko64UTG%2F%2B%2BRwK5tvWuiUvgoAvOi4hxdR8WgjFXvTZTELjsABRbrP%2FuXxhANsJiAnk47YVcVUw2V4aQs8ISByxoZcNWE1aENcp%2FiBDDbe9otJ3Wyhem2%2BteV0zWGcOCv%2BeA9GxVj5zrv%2BxWF4Z7GPH4SlEpO6c%2FROGQ%3D%3D HTTP/1.1" 200 0
+2020-04-09 14:51:53,970 DEBUG   Thread-7  :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/schopfej/radius_real_images/98pz4y61/file_stream HTTP/1.1" 200 None
+2020-04-09 14:51:54,337 DEBUG   Thread-7  :15162 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/schopfej/radius_real_images/98pz4y61/file_stream HTTP/1.1" 200 None
+2020-04-09 14:51:54,339 INFO    MainThread:15162 [run_manager.py:_sync_etc():1379] process only ran for 5 seconds, not syncing files
+2020-04-09 14:51:54,339 INFO    MainThread:15162 [98pz4y61:run_manager.py:_sync_etc():1379] process only ran for 5 seconds, not syncing files

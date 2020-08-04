@@ -1,0 +1,14 @@
+Epoch 0/2
+----------
+train Loss: 0.5660 Acc: 0.7200
+val Loss: 0.6157 Acc: 0.5974
+Epoch 1/2
+----------
+train Loss: 0.4417 Acc: 0.8221
+val Loss: 0.5647 Acc: 0.6971
+Epoch 2/2
+----------
+train Loss: 0.3986 Acc: 0.8399
+val Loss: 0.7715 Acc: 0.4976
+Training complete in 5m 14s
+Best val Acc: 0.697114

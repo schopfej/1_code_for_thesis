@@ -1,0 +1,3 @@
+# Here I use the cpu but when running 
+# on a cluster, I should use the GPU 
+but then I have to change the code in the test() fct a little. 
